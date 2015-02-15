@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="workaround wildfly war exploed">
+    <output-path>$PROJECT_DIR$/out/artifacts/workaround_wildfly_war_exploed</output-path>
+    <root id="root">
+      <element id="artifact" artifact-name="Bowling:war exploded" />
+    </root>
+  </artifact>
+</component>
