@@ -8,7 +8,7 @@
     <div class="collapse navbar-collapse" id="bowlingNavbar">
       <ul class="nav navbar-nav">
         <li><a href="#">Home</a></li>
-        <li><a href="#">Klassement</a></li>
+        <li><a href="/ranking">Klassement</a></li>
       </ul>
     </div>
   </div>

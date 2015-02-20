@@ -1,4 +1,4 @@
-package main.java.be.bowling.config;
+package be.bowling.config;
 
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;

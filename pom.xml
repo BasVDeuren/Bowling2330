@@ -12,6 +12,9 @@
     <spring.version>4.1.4.RELEASE</spring.version>
     <javax.servlet.version>3.1.0</javax.servlet.version>
     <tomcat.version>8.0.18</tomcat.version>
+    <hibernate.version>4.3.8.Final</hibernate.version>
+    <commons-dbcp-datasource.version>1.4</commons-dbcp-datasource.version>
+    <postgresql.version>9.1-901-1.jdbc4</postgresql.version>
   </properties>
 
   <dependencies>
@@ -64,6 +67,26 @@
       <groupId>javax.servlet</groupId>
       <artifactId>javax.servlet-api</artifactId>
       <version>${javax.servlet.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-entitymanager</artifactId>
+      <version>${hibernate.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-core</artifactId>
+      <version>${hibernate.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-dbcp</groupId>
+      <artifactId>commons-dbcp</artifactId>
+      <version>${commons-dbcp-datasource.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <version>${postgresql.version}</version>
     </dependency>
   </dependencies>
 

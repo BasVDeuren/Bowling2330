@@ -1,4 +1,4 @@
-package main.java.be.bowling.constants.bowlingRoutingConstants;
+package be.bowling.constants.bowlingRoutingConstants;
 
 public final class BowlingConstants {
   public static final class Routing {
@@ -8,7 +8,7 @@ public final class BowlingConstants {
     }
 
     public class Ranking {
-      private static final String RANKING = "ranking";
+      public static final String RANKING = "ranking";
       public class Overview {
         public static final String OVERVIEW = RANKING + "/overview";
       }
@@ -18,6 +18,14 @@ public final class BowlingConstants {
   public final static class Views {
     public final static class Home {
       public static final String INDEX = "index";
+    }
+
+    public class Ranking {
+      private static final String RANKING = "ranking";
+
+      public class Overview {
+        public static final String OVERVIEW = RANKING + "/overview";
+      }
     }
   }
 }
